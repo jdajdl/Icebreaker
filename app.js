@@ -34,6 +34,13 @@ var ACTIVITES = [
   etapes:["Distribuer des grilles 3×3 ou 4×4 : chaque case contient un critère (« a déjà changé de métier », « parle trois langues », « joue d'un instrument »).","Les participants circulent et font signer une case par personne.","Le premier qui remplit une ligne ou la grille crie « Bingo ! ».","Lire quelques cases validées et demander à la personne concernée de développer."],
   variantes:["Cases liées au métier : « a déjà vécu un arrêt de chantier », « a obtenu une habilitation ».","Limiter à une signature par personne pour forcer à circuler."],
   debrief:"Qui a découvert quelque chose d'inattendu ? Faire le lien avec le travail d'équipe attendu."},
+ {"id": "presentation-decalee", "titre": "Présentation décalée du voisin", "type": "connaissance", "duree": 15, "min": 4, "max": 12, "moments": ["debut"], "materiel": "Cartes de styles (facultatif)", "energie": "moyen", "objectif": "Faire connaissance avec humour, en passant par la voix d'un voisin.", "etapes": ["Former des binômes. Chacun recueille pendant 2 minutes des informations sur l'autre : prénom, poste, un goût ou une passion.", "Choisir ou tirer au sort un style de présentation : présentateur télé, conteur, en rimes, mime, annonce de gare…", "À tour de rôle, chacun présente son binôme dans le style imposé, en 1 minute.", "Applaudir après chaque présentation."], "variantes": ["Présenter dans une langue étrangère simple.", "Remplacer l'oral par un slogan publicitaire ou un dessin."], "debrief": "Qu'a-t-on découvert sur les autres ? Noter les compétences et attentes utiles pour la suite."},
+ {"id": "objet-ile-deserte", "titre": "L'objet de l'île déserte", "type": "connaissance", "duree": 10, "min": 4, "max": 12, "moments": ["debut", "midi"], "materiel": "Aucun", "energie": "calme", "objectif": "Révéler une facette personnelle à partir d'un objet choisi.", "etapes": ["Poser la question : un seul objet à emporter sur une île déserte, réel ou imaginaire.", "Laisser 1 minute de réflexion silencieuse.", "Chacun présente son objet en 40 secondes et dit ce qu'il révèle de lui.", "Un participant de son choix peut poser une question."], "variantes": ["Se limiter à des objets du quotidien professionnel.", "Choisir un objet en lien avec le thème de la formation."], "debrief": "Relever les valeurs ou besoins qui reviennent (sécurité, lien, curiosité) et les relier au sujet du jour."},
+ {"id": "tu-preferes", "titre": "Tu préfères… ?", "type": "connaissance", "duree": 6, "min": 4, "max": 12, "moments": ["debut", "midi"], "materiel": "Aucun", "energie": "moyen", "objectif": "Faire parler tout le monde à travers de petits choix légers.", "etapes": ["Chacun prépare une question du type « tu préfères A ou B ? » (1 min).", "À tour de rôle, une personne pose sa question à un participant de son choix.", "La personne interrogée choisit et justifie en une phrase.", "Elle pose ensuite sa question à quelqu'un qui n'a pas encore répondu."], "variantes": ["Choix liés au métier : « plutôt une grosse panne ou dix petites ? »", "Tout le monde répond en se plaçant à gauche ou à droite de la salle."], "debrief": "Aucun débrief nécessaire. Remarquer ce que les réponses disent des priorités du groupe."},
+ {"id": "questions-melangees", "titre": "Questions mélangées", "type": "connaissance", "duree": 10, "min": 4, "max": 12, "moments": ["debut", "midi"], "materiel": "Papier, stylos, un récipient", "energie": "calme", "objectif": "Faire répondre chacun à une question inattendue posée par un autre.", "etapes": ["Chacun écrit sur un papier une question originale, pas trop personnelle.", "Plier les papiers et les mélanger dans un récipient.", "À tour de rôle, chacun pioche une question et y répond.", "Tour de table final : quelle réponse vous a le plus surpris ?"], "variantes": ["Imposer un thème : le métier, l'apprentissage, les loisirs.", "Autoriser chacun à passer une question et en piocher une autre."], "debrief": "Quelles questions ont fait réagir ? Elles indiquent les centres d'intérêt du groupe."},
+ {"id": "meteo-interieure", "titre": "Météo intérieure", "type": "connaissance", "duree": 5, "min": 4, "max": 12, "moments": ["debut", "midi", "fin"], "materiel": "Aucun", "energie": "calme", "objectif": "Prendre la température du groupe sans longue discussion.", "etapes": ["Demander à chacun de décrire son état du moment avec une image météo : soleil, nuages, orage, brume…", "Pas de commentaires ni de questions : une phrase par personne.", "Noter au tableau la météo générale du groupe.", "Remercier et enchaîner."], "variantes": ["Poser des cartes ou pictogrammes météo sur les tables.", "Reposer la question en fin de journée pour comparer."], "debrief": "Adapter le rythme : un groupe orageux ou brumeux appelle plus d'énergie ou des pauses."},
+ {"id": "quiz-groupe", "titre": "Quiz sur le groupe", "type": "connaissance", "duree": 8, "min": 4, "max": 12, "moments": ["debut"], "materiel": "Questions préparées, papier", "energie": "moyen", "objectif": "Parler du contexte commun avec un petit quiz.", "etapes": ["Préparer 5 à 8 questions sur le groupe, la structure ou le sujet : chiffres, dates, anecdotes.", "Former deux équipes.", "Poser chaque question ; chaque équipe note sa réponse.", "Donner la réponse et la commenter en une phrase.", "Annoncer l'équipe gagnante."], "variantes": ["Ajouter une question sur chaque participant, recueillie à l'avance.", "Offrir un petit lot à l'équipe gagnante."], "debrief": "Utiliser les réponses ratées pour introduire les points importants de la formation."},
+ {"id": "speed-networking", "titre": "Speed networking", "type": "connaissance", "duree": 10, "min": 6, "max": 12, "moments": ["debut"], "materiel": "Chronomètre", "energie": "actif", "objectif": "Parler à plusieurs personnes en peu de temps.", "etapes": ["Placer deux rangées face à face, ou des binômes en cercle.", "Lancer un chrono de 2 minutes : les deux personnes échangent à partir d'une question affichée.", "À la fin du temps, une rangée se décale d'une place.", "Changer de question à chaque rotation.", "Faire 4 à 5 rotations, puis débriefer."], "variantes": ["Questions liées à la formation : « qu'attendez-vous de ces deux jours ? »", "Réduire à 90 secondes pour accélérer."], "debrief": "Qui a trouvé un point commun inattendu ? Relever les attentes qui reviennent."},
  {id:"debout-si", titre:"Debout si…", type:"energie", duree:3, min:4, max:12, moments:ALL, materiel:"Aucun", energie:"actif",
   objectif:"Réveiller le groupe en une minute, sans préparation.",
   etapes:["Demander à tous de se tenir prêts, assis.","Énoncer des affirmations : « Debout si vous avez pris le train aujourd'hui », « … si vous buvez du café ».","Alterner affirmations légères et affirmations liées à la formation.","Terminer par une affirmation qui introduit le sujet du jour."],
@@ -54,6 +61,7 @@ var ACTIVITES = [
   etapes:["Disposer les chaises en cercle avec une chaise de moins que de participants.","La personne debout au centre dit « Changez de place si… » et complète avec une affirmation vraie pour elle.","Tous ceux qui sont concernés se lèvent et prennent une autre chaise.","Celui qui reste debout devient le nouveau meneur."],
   variantes:["Imposer des phrases liées au métier ou à la formation.","Interdire de prendre la chaise voisine."],
   debrief:"Aucun débrief nécessaire. Garder les chaises en cercle si l'on enchaîne sur un échange."},
+ {"id": "file-anniversaires", "titre": "La file des anniversaires", "type": "energie", "duree": 6, "min": 6, "max": 12, "moments": ["debut", "midi"], "materiel": "Aucun", "energie": "actif", "objectif": "Se mettre en mouvement et communiquer sans parler.", "etapes": ["Expliquer le but : se ranger en file, du 1er janvier au 31 décembre, selon la date d'anniversaire (jour et mois seulement).", "Interdire la parole : on se renseigne avec les doigts, les gestes ou la mimique.", "Chacun se place, puis le groupe a 3 minutes pour finir de s'ordonner.", "À la fin, chacun annonce sa date à voix haute pour vérifier la file."], "variantes": ["Autoriser la parole mais interdire de dire des chiffres.", "Classer plutôt par nombre de lettres du prénom ou par distance du domicile."], "debrief": "Comment le groupe s'est-il organisé ? Qui a pris l'initiative ? Éviter le classement par âge, qui peut gêner."},
  {id:"compter-vingt", titre:"Compter jusqu'à vingt", type:"cohesion", duree:5, min:5, max:12, moments:["debut","midi"], materiel:"Aucun", energie:"calme",
   objectif:"Écouter le groupe et agir de façon coordonnée, sans chef.",
   etapes:["Regards baissés ou yeux fermés, le groupe compte de 1 à 20 sans ordre défini.","N'importe qui peut dire le nombre suivant ; si deux personnes parlent en même temps, on repart à 1.","Aucun signe ni code convenu entre participants.","Poursuivre jusqu'à 20 ou jusqu'à la fin du temps."],
@@ -202,10 +210,21 @@ function updateResults(){
 function updateFilters(){ var d=$("#filters"); if(d){ d.innerHTML=filtersHTML(); } updateResults(); }
 
 /* ---------- Vues ---------- */
+var ABOUT = "<details class='about'><summary>Qu'est-ce qu'un ice-breaker ?</summary><div class='about-body'>"+
+"<p>Un ice-breaker (ou brise-glace) est une activité courte et simple, proposée au début d'une réunion, d'un atelier ou d'une formation. Il détend l'ambiance, aide les participants à se connaître et fait parler tout le monde avant d'aborder le sujet. À la différence d'un team building, il reste bref et vise un seul objectif : amorcer l'échange.</p>"+
+"<p><b>Conseils d'animation</b></p><ul>"+
+"<li>Annoncez la durée avant de commencer et tenez-la : 15 à 20 minutes au maximum.</li>"+
+"<li>Choisissez une activité adaptée au groupe et, si possible, liée au thème de la séance.</li>"+
+"<li>Posez les règles : pas de jugement ni de moquerie, et chacun garde le droit de ne pas parler de sa vie privée.</li>"+
+"<li>Gardez la main sur le déroulé pour que l'activité ne parte pas dans tous les sens.</li>"+
+"<li>Ménagez les personnes discrètes et les nouveaux arrivants : préférez le binôme ou le tour de parole à une mise en avant imposée.</li>"+
+"<li>Évitez les jeux trop décalés quand le contexte est tendu.</li></ul>"+
+"<p class='src'>Contenu inspiré de la page <a href='https://www.manager-go.com/gestion-de-projet/dossiers-methodes/icebreaker' target='_blank' rel='noopener'>manager-go.com</a>, reformulé et adapté.</p></div></details>";
+
 function viewListe(){
   return '<header class="hero"><h1>Boîte à déclics</h1><p class="sub">Brise-glace, énergisants et reprises d\'attention, avec consignes prêtes à lire en salle.</p>'+
    '<button type="button" class="surprise" data-action="surprise"><b>Surprends-moi</b><span>Une activité au hasard parmi celles qui correspondent aux filtres</span></button></header>'+
-   '<details class="filters" id="filters">'+filtersHTML()+'</details>'+
+   ABOUT+'<details class="filters" id="filters">'+filtersHTML()+'</details>'+
    '<p class="count" id="count"></p><div class="list" id="results"></div>';
 }
 function viewDetail(a){
@@ -231,6 +250,13 @@ function viewOutils(){
      '<div class="row center" role="group" aria-label="Durées prédéfinies">'+[1,2,3,5,10,15].map(function(m){ return '<button type="button" class="chip" data-action="timer-preset" data-min="'+m+'">'+m+' min</button>'; }).join("")+
        '<label class="row" style="gap:6px"><span class="sr" style="font-size:14px;color:var(--muted)">Autre :</span><input class="num" id="customMin" type="number" inputmode="numeric" min="1" max="180" placeholder="min" style="width:80px"></label><button type="button" class="chip" data-action="timer-custom">OK</button></div>'+
      '<div class="row center"><button type="button" class="btn small" data-action="project-timer">Projeter le chrono</button><button type="button" class="btn small" data-action="sound" aria-pressed="'+timer.sound+'">Son : '+(timer.sound?'activé':'coupé')+'</button></div>'+
+   '</section>'+
+   '<section class="tool" aria-labelledby="t-dice"><h2 id="t-dice">Dé</h2>'+
+     '<div class="row center" role="group" aria-label="Nombre de faces">'+DICE_FACES.map(function(f){ return '<button type="button" class="chip" data-action="dice-faces" data-v="'+f+'" aria-pressed="'+(f===diceCfg.faces)+'">'+f+' faces</button>'; }).join("")+'</div>'+
+     '<div class="row center" role="group" aria-label="Nombre de dés">'+[1,2,3].map(function(c){ return '<button type="button" class="chip" data-action="dice-count" data-v="'+c+'" aria-pressed="'+(c===diceCfg.count)+'">'+c+(c>1?' dés':' dé')+'</button>'; }).join("")+'</div>'+
+     '<div id="diceOut" aria-live="polite">'+diceHTML(diceLast)+'</div>'+
+     '<div class="row center"><button type="button" class="btn primary" data-action="dice-roll">Lancer</button></div>'+
+     '<p class="hint" id="diceHist" style="text-align:center;color:var(--muted);font-size:14px">'+(diceHist.length?"Derniers lancers : "+diceHist.join(" · "):"")+'</p>'+
    '</section>'+
    '<section class="tool" aria-labelledby="t-part"><h2 id="t-part">Participants</h2><p class="hint">Un nom par ligne ou séparés par des virgules. Les noms ci-dessous sont des exemples : remplacez-les par vos stagiaires. La liste reste sur cet appareil.</p>'+
      '<textarea class="names" id="names" aria-label="Liste des participants">'+esc(state.names)+'</textarea>'+
@@ -356,6 +382,41 @@ function openOverlay(kind,id){
 function closeOverlay(){ var o=$("#overlay"); o.hidden=true; o.innerHTML=""; document.body.classList.remove("noscroll"); paintTimer(); }
 document.addEventListener("keydown",function(e){ if(e.key==="Escape" && !$("#overlay").hidden) closeOverlay(); });
 
+/* ---------- Dé ---------- */
+var DICE_FACES=[4,6,8,10,12,20];
+var diceCfg=LS.get("bad:dice",{faces:6,count:1});
+if(DICE_FACES.indexOf(diceCfg.faces)<0) diceCfg.faces=6;
+if(!(diceCfg.count>=1 && diceCfg.count<=3)) diceCfg.count=1;
+var diceLast=null, diceHist=[], diceH=null;
+function rnd(n){
+  try{ var a=new Uint32Array(1); crypto.getRandomValues(a); return a[0]%n+1; }catch(e){ return Math.floor(Math.random()*n)+1; }
+}
+function diceHTML(vals,rolling){
+  if(!vals) return '<div class="dice-row"><span class="hint" style="color:var(--muted)">Appuyez sur « Lancer ».</span></div>';
+  var sum=vals.reduce(function(a,b){ return a+b; },0);
+  return '<div class="dice-row">'+vals.map(function(v){ return '<span class="die'+(rolling?' rolling':'')+'">'+v+'</span>'; }).join("")+(vals.length>1?'<span class="dice-sum">= '+sum+'</span>':'')+'</div>';
+}
+function paintDiceCfg(){
+  Array.prototype.forEach.call(document.querySelectorAll('[data-action="dice-faces"]'),function(b){ b.setAttribute("aria-pressed",parseInt(b.getAttribute("data-v"),10)===diceCfg.faces); });
+  Array.prototype.forEach.call(document.querySelectorAll('[data-action="dice-count"]'),function(b){ b.setAttribute("aria-pressed",parseInt(b.getAttribute("data-v"),10)===diceCfg.count); });
+}
+function paintDiceHist(){ var el=$("#diceHist"); if(el) el.textContent=diceHist.length?"Derniers lancers : "+diceHist.join(" · "):""; }
+function rollDice(){
+  if(diceH) return;
+  var out=$("#diceOut");
+  function roll(){ var v=[]; for(var i=0;i<diceCfg.count;i++) v.push(rnd(diceCfg.faces)); return v; }
+  function finish(){
+    diceLast=roll();
+    var sum=diceLast.reduce(function(a,b){ return a+b; },0);
+    diceHist.unshift(diceLast.length>1?diceLast.join("+")+"="+sum:String(diceLast[0]));
+    diceHist=diceHist.slice(0,8);
+    out.innerHTML=diceHTML(diceLast); paintDiceHist(); diceH=null;
+  }
+  if(reduced()){ finish(); return; }
+  var i=0;
+  diceH=setInterval(function(){ out.innerHTML=diceHTML(roll(),true); if(++i>=10){ clearInterval(diceH); finish(); } },60);
+}
+
 /* ---------- Participants ---------- */
 function parseNames(){
   var seen={}, out=[];
@@ -430,6 +491,9 @@ document.addEventListener("click",function(e){
     case "timer-preset": setTimer(parseInt(el.getAttribute("data-min"),10)*60); break;
     case "timer-custom": var v=parseInt($("#customMin").value,10); if(v>0 && v<=180) setTimer(v*60); else toast("Entrez une durée entre 1 et 180 minutes."); break;
     case "sound": timer.sound=!timer.sound; el.setAttribute("aria-pressed",timer.sound); el.textContent="Son : "+(timer.sound?"activé":"coupé"); break;
+    case "dice-faces": diceCfg.faces=parseInt(el.getAttribute("data-v"),10); LS.set("bad:dice",diceCfg); paintDiceCfg(); break;
+    case "dice-count": diceCfg.count=parseInt(el.getAttribute("data-v"),10); LS.set("bad:dice",diceCfg); paintDiceCfg(); break;
+    case "dice-roll": rollDice(); break;
     case "draw": draw(); break;
     case "draw-reset": drawn=[]; var o=$("#drawOut"); o.className="stage idle"; o.textContent="Appuyez pour tirer un nom."; updateDrawLeft(); break;
     case "groups": makeGroups(); break;
