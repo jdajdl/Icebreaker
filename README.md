@@ -1,6 +1,6 @@
 # Icebreaker – Boîte à déclics
 
-Application installable (PWA) pour les formateurs : 22 ice-breakers, énergisants et reprises d'attention avec consignes, filtres, chronomètre, tirage au sort et constitution de groupes. Pensée pour des sessions de 10 à 12 stagiaires maximum : toutes les activités fonctionnent jusqu'à 12 personnes.
+Application installable (PWA) pour les formateurs : 30 ice-breakers, énergisants et reprises d'attention avec consignes, filtres, chronomètre, dé, tirage au sort et constitution de groupes. Pensée pour des sessions de 10 à 12 stagiaires maximum : toutes les activités fonctionnent jusqu'à 12 personnes.
 
 Adresse : https://jdajdl.github.io/Icebreaker/
 Sur téléphone, ouvrir l'adresse puis « Ajouter à l'écran d'accueil ». L'application fonctionne ensuite hors-ligne.
@@ -18,7 +18,7 @@ Settings → Pages → Deploy from a branch → `main` / `(root)`.
 Les activités sont la constante `ACTIVITES` en haut de `app.js` (titre, type, durée, effectif, moments, matériel, consignes, variantes, débrief).
 
 ## Publier une mise à jour
-Après toute modification, changer `VERSION` dans `sw.js` (`declics-v2` → `declics-v3`) pour que les appareils déjà installés rechargent les fichiers.
+Après toute modification, changer `VERSION` dans `sw.js` (`declics-v3` → `declics-v4`) pour que les appareils déjà installés rechargent les fichiers.
 
 ## Données
 Favoris, notes, dates d'utilisation et liste de participants sont enregistrés dans le navigateur de chaque appareil (stockage local). Rien n'est envoyé ailleurs.
